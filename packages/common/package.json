@@ -1,0 +1,19 @@
+{
+  "name": "@pumpit/common",
+  "private": true,
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf dist && tsc"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-native": "^0.59.8"
+  },
+  "devDependencies": {
+    "@types/react-native": "^0.57.53",
+    "rimraf": "^2.6.3",
+    "typescript": "^3.4.5"
+  }
+}
